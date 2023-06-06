@@ -12,8 +12,5 @@
 ###Later on, I will be changing the design and colors, customizing them to my liking and the way I develop in this project.
 
 ###I hope you like it, and it would help me a lot if you give a star to this repository.
-![](https://github.com/Your_Repository_Name/Your_GIF_Name.gif)
 
-<div align="center">
   ![](https://github.com/imperta/AluraGeek-Sprint-2/blob/main/readme-sources/starbadge.gif)
-            </div>
