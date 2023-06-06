@@ -13,4 +13,4 @@
 
 ###I hope you like it, and it would help me a lot if you give a star to this repository.
 
-  ![](https://github.com/imperta/AluraGeek-Sprint-2/blob/main/readme-sources/starbadge.gif)
+###![](https://github.com/imperta/AluraGeek-Sprint-2/blob/main/readme-sources/starbadge.gif)
