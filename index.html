@@ -21,18 +21,28 @@
             <img
               src="./resources/logos-svg/Logo.svg"
               alt="alura logo w/controller"
+              draggable="false"
+              class="logo-nav"
+            />
+            <img
+              src="./resources/logos-svg/Vector.svg"
+              alt="alura logo w/controller"
+              draggable="false"
+              class="logo-nav-mobile"
             />
             <div class="search-input">
-              <input type="text" placeholder="¿Que deseas buscar?" />
               <img
                 src="./resources/logos-svg/magnifying-glass-solid.svg"
                 alt="search-icon"
+                draggable="false"
               />
+              <input type="text" placeholder="¿Que deseas buscar?" />
+        
             </div>
           </div>
           <!-- This is the right side of the nav bar -->
           <div class="right-content">
-            <button class="login-user">Login</button>
+            <button class="login-user"><a href="./pages/auth-s.html"><img src="./resources/logos-svg/user-solid.svg" alt=""></a></button>
           </div>
         </div>
       </div>
@@ -44,246 +54,254 @@
 
       <!-- Product Sections -->
       <!-- Starwars -->
-      <section class="sw-section">
-        <div class="navigation-section">
-          <span>Star Wars</span>
-          <div class="see-all-button">
-            <span>Ver todo</span>
-            <img src="" alt="" />
+      <div class="section-products-container">
+        <section class="sw-section">
+          <div class="navigation-section">
+            <span>Star Wars</span>
+            <div class="see-all-button">
+              <button class="see-all-button">Ver todo</button>
+              <img src="" alt="" 
+              draggable="false"/>
+              
+            </div>
           </div>
-        </div>
-        <div class="product-section">
-          <ul>
-            <li class="product-element">
-              <img src="./resources/img/starwars-imgs/unsplash_1VV1MRafd7A.png" alt="" />
-              <span class="product-name">Producto XY</span>
-              <span class="product-price">$ 60,09</span>
-              <a
-                href=""
-                class="product-details"
-                >Ver Producto</a
-              >
-            </li>
-            <li class="product-element">
-              <img src="./resources/img/starwars-imgs/unsplash_4OHkK555s1A.png" alt="" />
-              <span class="product-name">Producto XY</span>
-              <span class="product-price">$ 60,09</span>
-              <a
-                href=""
-                class="product-details"
-                >Ver Producto</a
-              >
-            </li>
-            <li class="product-element">
-              <img src="./resources/img/starwars-imgs/unsplash_6FDXGY9J6y4.png" alt="" />
-              <span class="product-name">Producto XY</span>
-              <span class="product-price">$ 60,09</span>
-              <a
-                href=""
-                class="product-details"
-                >Ver Producto</a
-              >
-            </li>
-            <li class="product-element">
-              <img src="./resources/img/starwars-imgs/unsplash_epRFE_hBNjo.png" alt="" />
-              <span class="product-name">Producto XY</span>
-              <span class="product-price">$ 60,09</span>
-              <a
-                href=""
-                class="product-details"
-                >Ver Producto</a
-              >
-            </li>
-            <li class="product-element">
-              <img src="./resources/img/starwars-imgs/unsplash_KeGToDVN0l4.png" alt="" />
-              <span class="product-name">Producto XY</span>
-              <span class="product-price">$ 60,09</span>
-              <a
-                href=""
-                class="product-details"
-                >Ver Producto</a
-              >
-            </li>
-            <li class="product-element">
-              <img src="./resources/img/starwars-imgs/unsplash_R8L1l9RN198.png" alt="" />
-              <span class="product-name">Producto XY</span>
-              <span class="product-price">$ 60,09</span>
-              <a
-                href=""
-                class="product-details"
-                >Ver Producto</a
-              >
-            </li>
-          </ul>
-        </div>
-      </section>
-
-      <!-- Consoles -->
-      <section class="cs-section">
-        <div class="navigation-section">
-          <span>Consolas</span>
-          <div class="see-all-button">
-            <span>Ver todo</span>
-            <img src="" alt="" />
+          <div class="product-section">
+            <ul>
+              <li class="product-element">
+                <img src="./resources/img/starwars-imgs/unsplash_1VV1MRafd7A.png" alt="" />
+                <span class="product-name">Producto XY</span>
+                <span class="product-price">$ 60,09</span>
+                <a
+                  href=""
+                  class="product-details"
+                  >Ver Producto</a
+                >
+              </li>
+              <li class="product-element">
+                <img src="./resources/img/starwars-imgs/unsplash_4OHkK555s1A.png" alt="" />
+                <span class="product-name">Producto XY</span>
+                <span class="product-price">$ 60,09</span>
+                <a
+                  href=""
+                  class="product-details"
+                  >Ver Producto</a
+                >
+              </li>
+              <li class="product-element">
+                <img src="./resources/img/starwars-imgs/unsplash_6FDXGY9J6y4.png" alt="" />
+                <span class="product-name">Producto XY</span>
+                <span class="product-price">$ 60,09</span>
+                <a
+                  href=""
+                  class="product-details"
+                  >Ver Producto</a
+                >
+              </li>
+              <li class="product-element">
+                <img src="./resources/img/starwars-imgs/unsplash_epRFE_hBNjo.png" alt="" />
+                <span class="product-name">Producto XY</span>
+                <span class="product-price">$ 60,09</span>
+                <a
+                  href=""
+                  class="product-details"
+                  >Ver Producto</a
+                >
+              </li>
+              <li class="product-element">
+                <img src="./resources/img/starwars-imgs/unsplash_KeGToDVN0l4.png" alt="" />
+                <span class="product-name">Producto XY</span>
+                <span class="product-price">$ 60,09</span>
+                <a
+                  href=""
+                  class="product-details"
+                  >Ver Producto</a
+                >
+              </li>
+              <li class="product-element">
+                <img src="./resources/img/starwars-imgs/unsplash_R8L1l9RN198.png" alt="" />
+                <span class="product-name">Producto XY</span>
+                <span class="product-price">$ 60,09</span>
+                <a
+                  href=""
+                  class="product-details"
+                  >Ver Producto</a
+                >
+              </li>
+            </ul>
           </div>
-        </div>
-        <div class="product-section">
-          <ul>
-            <li class="product-element">
-              <img src="./resources/img/consoles-imgs/unsplash_0POwK6iAiRQ.png" alt="" />
-              <span class="product-name">Producto XY</span>
-              <span class="product-price">$ 60,09</span>
-              <a
-                href=""
-                class="product-details"
-                >Ver Producto</a
-              >
-            </li>
-            <li class="product-element">
-              <img src="./resources/img/consoles-imgs/unsplash_caNzzoxls8Q.png" alt="" />
-              <span class="product-name">Producto XY</span>
-              <span class="product-price">$ 60,09</span>
-              <a
-                href=""
-                class="product-details"
-                >Ver Producto</a
-              >
-            </li>
-            <li class="product-element">
-              <img src="./resources/img/consoles-imgs/unsplash_k-xYhI3-gJM.png" alt="" />
-              <span class="product-name">Producto XY</span>
-              <span class="product-price">$ 60,09</span>
-              <a
-                href=""
-                class="product-details"
-                >Ver Producto</a
-              >
-            </li>
-            <li class="product-element">
-              <img src="./resources/img/consoles-imgs/unsplash_wa5z9o9fgjw.png" alt="" />
-              <span class="product-name">Producto XY</span>
-              <span class="product-price">$ 60,09</span>
-              <a
-                href=""
-                class="product-details"
-                >Ver Producto</a
-              >
-            </li>
-            <li class="product-element">
-              <img src="./resources/img/consoles-imgs/unsplash_Zjn4dT993-g.png" alt="" />
-              <span class="product-name">Producto XY</span>
-              <span class="product-price">$ 60,09</span>
-              <a
-                href=""
-                class="product-details"
-                >Ver Producto</a
-              >
-            </li>
-            <li class="product-element">
-              <img src="./resources/img/consoles-imgs/unsplash_ZV7lnfyQLmA.png" alt="" />
-              <span class="product-name">Producto XY</span>
-              <span class="product-price">$ 60,09</span>
-              <a
-                href=""
-                class="product-details"
-                >Ver Producto</a
-              >
-            </li>
-          </ul>
-        </div>
-      </section>
-
-      <!-- Diverse -->
-      <section class="dv-section">
-        <div class="navigation-section">
-          <span>Diversos</span>
-          <div class="see-all-button">
-            <span>Ver todo</span>
-            <img src="" alt="" />
+        </section>
+  
+        <!-- Consoles -->
+        <section class="cs-section">
+          <div class="navigation-section">
+            <span>Consolas</span>
+            <div class="see-all-button">
+              <button class="see-all-button">Ver todo</button>
+              <img src="" alt="" 
+              draggable="false"/>
+              
+            </div>
           </div>
-        </div>
-        <div class="product-section">
-          <ul>
-            <li class="product-element">
-              <img src="./resources/img/Diverse-imgs/unsplash_bUgaIaZysH0.png" alt="" />
-              <span class="product-name">Producto XY</span>
-              <span class="product-price">$ 60,09</span>
-              <a
-                href=""
-                class="product-details"
-                >Ver Producto</a
-              >
-            </li>
-            <li class="product-element">
-              <img src="./resources/img/Diverse-imgs/unsplash_fMP-oCze3AY.png" alt="" />
-              <span class="product-name">Producto XY</span>
-              <span class="product-price">$ 60,09</span>
-              <a
-                href=""
-                class="product-details"
-                >Ver Producto</a
-              >
-            </li>
-            <li class="product-element">
-              <img src="./resources/img/Diverse-imgs/unsplash_jMT6BrgBuXU.png" alt="" />
-              <span class="product-name">Producto XY</span>
-              <span class="product-price">$ 60,09</span>
-              <a
-                href=""
-                class="product-details"
-                >Ver Producto</a
-              >
-            </li>
-            <li class="product-element">
-              <img src="./resources/img/Diverse-imgs/unsplash_MxVkWPiJALs.png" alt="" />
-              <span class="product-name">Producto XY</span>
-              <span class="product-price">$ 60,09</span>
-              <a
-                href=""
-                class="product-details"
-                >Ver Producto</a
-              >
-            </li>
-            <li class="product-element">
-              <img src="./resources/img/Diverse-imgs/unsplash_r27umXAelDc.png" alt="" />
-              <span class="product-name">Producto XY</span>
-              <span class="product-price">$ 60,09</span>
-              <a
-                href=""
-                class="product-details"
-                >Ver Producto</a
-              >
-            </li>
-            <li class="product-element">
-              <img src="./resources/img/Diverse-imgs/unsplash_sYVY_ZKwaxU.png" alt="" />
-              <span class="product-name">Producto XY</span>
-              <span class="product-price">$ 60,09</span>
-              <a
-                href=""
-                class="product-details"
-                >Ver Producto</a
-              >
-            </li>
-          </ul>
-        </div>
-      </section>
+          <div class="product-section">
+            <ul>
+              <li class="product-element">
+                <img src="./resources/img/consoles-imgs/unsplash_0POwK6iAiRQ.png" alt="" />
+                <span class="product-name">Producto XY</span>
+                <span class="product-price">$ 60,09</span>
+                <a
+                  href=""
+                  class="product-details"
+                  >Ver Producto</a
+                >
+              </li>
+              <li class="product-element">
+                <img src="./resources/img/consoles-imgs/unsplash_caNzzoxls8Q.png" alt="" />
+                <span class="product-name">Producto XY</span>
+                <span class="product-price">$ 60,09</span>
+                <a
+                  href=""
+                  class="product-details"
+                  >Ver Producto</a
+                >
+              </li>
+              <li class="product-element">
+                <img src="./resources/img/consoles-imgs/unsplash_k-xYhI3-gJM.png" alt="" />
+                <span class="product-name">Producto XY</span>
+                <span class="product-price">$ 60,09</span>
+                <a
+                  href=""
+                  class="product-details"
+                  >Ver Producto</a
+                >
+              </li>
+              <li class="product-element">
+                <img src="./resources/img/consoles-imgs/unsplash_wa5z9o9fgjw.png" alt="" />
+                <span class="product-name">Producto XY</span>
+                <span class="product-price">$ 60,09</span>
+                <a
+                  href=""
+                  class="product-details"
+                  >Ver Producto</a
+                >
+              </li>
+              <li class="product-element">
+                <img src="./resources/img/consoles-imgs/unsplash_Zjn4dT993-g.png" alt="" />
+                <span class="product-name">Producto XY</span>
+                <span class="product-price">$ 60,09</span>
+                <a
+                  href=""
+                  class="product-details"
+                  >Ver Producto</a
+                >
+              </li>
+              <li class="product-element">
+                <img src="./resources/img/consoles-imgs/unsplash_ZV7lnfyQLmA.png" alt="" />
+                <span class="product-name">Producto XY</span>
+                <span class="product-price">$ 60,09</span>
+                <a
+                  href=""
+                  class="product-details"
+                  >Ver Producto</a
+                >
+              </li>
+            </ul>
+          </div>
+        </section>
+  
+        <!-- Diverse -->
+        <section class="dv-section">
+          <div class="navigation-section">
+            <span>Diversos</span>
+            <div class="see-all-button">
+              <button class="see-all-button">Ver todo</button>
+              <img src="" alt="" 
+              draggable="false"/>
+            </div>
+          </div>
+          <div class="product-section">
+            <ul>
+              <li class="product-element">
+                <img src="./resources/img/Diverse-imgs/unsplash_bUgaIaZysH0.png" alt="" />
+                <span class="product-name">Producto XY</span>
+                <span class="product-price">$ 60,09</span>
+                <a
+                  href=""
+                  class="product-details"
+                  >Ver Producto</a
+                >
+              </li>
+              <li class="product-element">
+                <img src="./resources/img/Diverse-imgs/unsplash_fMP-oCze3AY.png" alt="" />
+                <span class="product-name">Producto XY</span>
+                <span class="product-price">$ 60,09</span>
+                <a
+                  href=""
+                  class="product-details"
+                  >Ver Producto</a
+                >
+              </li>
+              <li class="product-element">
+                <img src="./resources/img/Diverse-imgs/unsplash_jMT6BrgBuXU.png" alt="" />
+                <span class="product-name">Producto XY</span>
+                <span class="product-price">$ 60,09</span>
+                <a
+                  href=""
+                  class="product-details"
+                  >Ver Producto</a
+                >
+              </li>
+              <li class="product-element">
+                <img src="./resources/img/Diverse-imgs/unsplash_MxVkWPiJALs.png" alt="" />
+                <span class="product-name">Producto XY</span>
+                <span class="product-price">$ 60,09</span>
+                <a
+                  href=""
+                  class="product-details"
+                  >Ver Producto</a
+                >
+              </li>
+              <li class="product-element">
+                <img src="./resources/img/Diverse-imgs/unsplash_r27umXAelDc.png" alt="" />
+                <span class="product-name">Producto XY</span>
+                <span class="product-price">$ 60,09</span>
+                <a
+                  href=""
+                  class="product-details"
+                  >Ver Producto</a
+                >
+              </li>
+              <li class="product-element">
+                <img src="./resources/img/Diverse-imgs/unsplash_sYVY_ZKwaxU.png" alt="" />
+                <span class="product-name">Producto XY</span>
+                <span class="product-price">$ 60,09</span>
+                <a
+                  href=""
+                  class="product-details"
+                  >Ver Producto</a
+                >
+              </li>
+            </ul>
+          </div>
+        </section>
+      </div>
     </main>
 
     <footer>
       <div class="footer-elements-content">
-        <div>
+        <div class="logo-footer">
           <img
             src="./resources/logos-svg/Logo.svg"
             alt="alura logo w/controller"
+            draggable="false"
           />
         </div>
         <div class="footer-content">
-            <span class="footer-content-element">¿Quienes somos?</span>
-            <span class="footer-content-element">Politica de privacidad</span>
-            <span class="footer-content-element">Programa de fidelidad</span>
-            <span class="footer-content-element">Nuestras tiendas</span>
-            <span class="footer-content-element">Quierro ser franquiciado</span>
-            <span class="footer-content-element">Anuncie aqui</span>
+            <a href="#" class="footer-content-element">¿Quienes somos?</a>
+            <a href="#" class="footer-content-element">Politica de privacidad</a>
+            <a href="#" class="footer-content-element">Programa de fidelidad</a>
+            <a href="#" class="footer-content-element">Nuestras tiendas</a>
+            <a href="#" class="footer-content-element">Quierro ser franquiciado</a>
+            <a href="#" class="footer-content-element">Anuncie aqui</a>
         </div>
         <div class="footer-form">
           <span>Hable con nosotros</span>
